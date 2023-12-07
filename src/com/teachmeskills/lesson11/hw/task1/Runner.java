@@ -18,8 +18,8 @@ import com.teachmeskills.lesson11.hw.task1.utils.Utils;
 public class Runner {
     public static void main(String[] args) {
         String string = "1234-abc-5678-asd-1A2B";
-        Utils.first(string);
-        Utils.second(string);
+        Utils.printTwoFirstBlocks(string);
+        Utils.replace(string);
         Utils.showOnlyLetters(string);
         Utils.showOnlyLettersToUpperCase(string);
         Utils.contains(string);

@@ -16,12 +16,12 @@ import java.util.Arrays;
  * Методы на вход (входным параметром) будут принимать вводимую на вход программы строку.
  */
 public class Utils {
-    public static void first(String documents) {
+    public static void printTwoFirstBlocks(String documents) {
         String[] array = documents.split("-");
         System.out.println(array[0] + " " + array[2]);
     }
 
-    public static void second(String documents) {
+    public static void replace(String documents) {
         String a = documents.replaceAll("[a-zA-Z]{3}", "***");
         System.out.println(a);
     }
